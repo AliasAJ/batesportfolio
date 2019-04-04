@@ -3,7 +3,12 @@
   var win = $(window),
     foo = $(".typer");
 
-  foo.typer(["Full-Stacker.", "Creative Guy.", "Dev."]);
+  foo.typer([
+    "Web Development.",
+    "Graphic Design.",
+    "UI Design.",
+    "Creative Solutions."
+  ]);
 
   // unneeded...
   win
