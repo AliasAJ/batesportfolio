@@ -114,7 +114,7 @@ Container
 
 .contain-wrapp{
 	position:relative;
-	padding:40px 0;
+	padding:60px 0;
 }
 
 .gray-container{
@@ -205,13 +205,13 @@ Container
 .half-content-wrapp{
 	float:left;
 	width:100%;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	background:#343c45;
 	color:#fff;
 }
 
 .half-content{
-	padding:40px 30px;
+	padding:30px 40px 40px 30px;
 }
 
 .page-heading{
@@ -278,7 +278,7 @@ Container
 }
 
 .boxed-intro-img{
-	padding:30px 10px 30px 10px;
+	padding:30px;
 }
 
 .boxed-intro-img .canframe{
@@ -302,11 +302,12 @@ Container
 
 .boxed-intro-wrapp{
 	padding:50px 0 0 15px;
+	margin-top:20px;
 }
 
 .boxed-intro-content{
 	display:block;
-	padding:10px 0;
+	padding:10px 20px 0 0;
 	margin-bottom:40px;
 }
 
@@ -929,7 +930,6 @@ Title head
 	position:relative;
 	display:block;
 	width:100%;
-	margin-top:10px;
 	margin-bottom:20px;
 	padding-bottom:20px;
 }
@@ -1093,7 +1093,7 @@ Parallax
 =========================== */
 .parallax{
 	position:relative;
-	padding:210px 0;
+	padding:180px 0;
 	margin: 0 auto;
 	overflow-y: visible;
 	width: 100%;
@@ -1103,7 +1103,7 @@ Parallax
     -webkit-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-	background: 50% 0 no-repeat fixed;
+	background:no-repeat fixed;
 }
 
 .parallax.white-bg {

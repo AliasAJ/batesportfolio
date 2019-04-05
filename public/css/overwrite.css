@@ -346,8 +346,8 @@ Dropcaps
 Images
 =========================== */
 .img-responsive{
-	display: inline-block;
-	width: 100%;
+	/* display: inline-block; */
+	width: 85%;
 	margin: auto;
 }
 
