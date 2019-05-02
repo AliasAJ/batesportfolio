@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Color -->
     <link id="skin" href="skins/green.css" rel="stylesheet">
@@ -35,8 +36,8 @@
 
   <body>
     <div id="root"></div>
-	<!-- Start slider wrapper -->
-	<div class="parallax" data-background="img/parallax_pryme.png" data-speed="0.5" data-size="50%">
+  <!-- Start slider wrapper -->
+	<div class="parallax" data-background="img/parallax_pryme.png" data-speed="0.6" data-size="55%">
 		<div class="container">
 			<div class="content-parallax">
           <div class="row">
@@ -48,9 +49,11 @@
                 </div>
               </div>
             </div>
-			</div>
+      </div>
 		</div>
-	</div>
+  </div>
+
+  <div id="content"></div>
 	<!-- End slider wrapper -->
 
     <!-- Start Navigation -->
@@ -100,6 +103,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="boxed-intro-wrapp">
+                      <div class="slideInLeft">
                     <div class="title-head">
                       <span>Who I am</span>
                       <h4>Development + Design</h4>
@@ -109,6 +113,7 @@
                       <p>I was introduced to web development while creating wireframes and designing the graphics and user interfaces of various websites and applications. I sought to extend my skills by learning how to not just design layouts, but build them as well. I learned Full-Stack Web Development while attending Lambda School of Software Engineering and Computer Science.  </p>
                         
                     </div>
+                  </div>
                     <div class="intro-flex">
                         <div class="col-icon">
                           <a class="btn btn-primary btn-icon" href="#portfolio">Portfolio <i class="fa fa-long-arrow-right"></i></a>
@@ -189,59 +194,108 @@
             
             <!-- Start portfolio -->
             <div id="js-grid-masonry-projects" class="cbp cbp-l-grid-masonry-projects">
-              <!-- Start project 1 -->
+                            <!-- Start project 1 -->
+                            <div class="cbp-item graphic">
+                                <a href="portfolioDetail/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                                  <div class="cbp-caption-defaultWrap">
+                                    <img src="img/clients/Cliquebook_thumb2.png" alt="" />
+                                  </div>
+                                  <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-zoom">
+                                      <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Cliquebook</div>
+                                        <div class="cbp-l-caption-desc">Web Development/Logo</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <!-- End project 1 -->
+                            <!-- Start project 1 -->
+                            <div class="cbp-item graphic">
+                                <a href="portfolioDetail/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                                  <div class="cbp-caption-defaultWrap">
+                                    <img src="img/clients/Gbooks_thumb.png" alt="" />
+                                  </div>
+                                  <div class="cbp-caption-activeWrap">
+                                    <div class="cbp-l-caption-zoom">
+                                      <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Gbooks</div>
+                                        <div class="cbp-l-caption-desc">Web Development/logo</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                              <!-- End project 1 -->
+                                            <!-- Start project 4 -->
               <div class="cbp-item graphic">
-                <a href="portfolioDetail/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                  <div class="cbp-caption-defaultWrap">
-                    <img src="img/project1.png" alt="" />
-                  </div>
-                  <div class="cbp-caption-activeWrap">
-                    <div class="cbp-l-caption-zoom">
-                      <div class="cbp-l-caption-body">
-                        <div class="cbp-l-caption-title">Reciprocity</div>
-                        <div class="cbp-l-caption-desc">Identity/Web Design</div>
+                  <a href="portfolioDetail/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/clients/workofart_thumb.png" alt="" />
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-zoom">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-title">Work of Art</div>
+                          <div class="cbp-l-caption-desc">Identity/Branding</div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </a>
-              </div>
-              <!-- End project 1 -->
-              
-              <!-- Start project 2 -->
-              <div class="cbp-item web-design">
-                <a href="portfolioDetail/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
-                  <div class="cbp-caption-defaultWrap">
-                    <img src="img/project2.png" alt="" />
-                  </div>
-                  <div class="cbp-caption-activeWrap">
-                    <div class="cbp-l-caption-zoom">
-                      <div class="cbp-l-caption-body">
-                        <div class="cbp-l-caption-title">Ecopreneur</div>
-                        <div class="cbp-l-caption-desc">Identity/Branding</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- End project 2 -->
-              
+                  </a>
+                </div>
+                <!-- End project 4 -->
               <!-- Start project 3 -->
+              <div class="cbp-item web-design">
+                  <a href="portfolioDetail/project5.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/clients/galaxy_thumb.png" alt="" />
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-zoom">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-title">Galaxy Limo</div>
+                          <div class="cbp-l-caption-desc">Identity/Web Design</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- End project 3 -->
+              <!-- Start project 5 -->
               <div class="cbp-item logos">
-                <a href="portfolioDetail/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                  <a href="portfolioDetail/project3.html" class="cbp-caption cbp-singlePage" rel="nofollow">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/clients/wearegreensboro_thumb2.png" alt="" />
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-zoom">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-title">We Are Greensboro Magazine</div>
+                          <div class="cbp-l-caption-desc">Identity/branding</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- End project 5 -->           
+              <!-- Start project 6 -->
+              <div class="cbp-item logos">
+                <a href="portfolioDetail/project6.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                   <div class="cbp-caption-defaultWrap">
-                    <img src="img/project3.png" alt="" />
+                    <img src="img/clients/reciprocity_thumb.png" alt="" />
                   </div>
                   <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-zoom">
                       <div class="cbp-l-caption-body">
-                        <div class="cbp-l-caption-title">Yamamori Ltd.</div>
-                        <div class="cbp-l-caption-desc">Web Design</div>
+                        <div class="cbp-l-caption-title">Reciprocity Coaching</div>
+                        <div class="cbp-l-caption-desc">Identity</div>
                       </div>
                     </div>
                   </div>
                 </a>
               </div>
-              <!-- End project 3 -->
+              <!-- End project 6 -->
             </div>
             <!-- End portfolio -->
             
@@ -287,8 +341,8 @@
   
   <!-- Parallax -->
 	<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
-	<script src="js/parallax/setting.js"></script>
-	
+  <script src="js/parallax/setting.js"></script>
+
 	<!-- Custom checkbox and radio -->
 	<script src="js/checkator/fm.checkator.jquery.js"></script>
 	<script src="js/checkator/setting.js"></script>
@@ -316,6 +370,7 @@
 	
     <!-- Custom -->
     <script src="js/custom.js"></script>
+
   </div>
   </body>
 </html>

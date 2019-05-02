@@ -1093,7 +1093,7 @@ Parallax
 =========================== */
 .parallax{
 	position:relative;
-	padding:180px 0;
+	padding:210px 0;
 	margin: 0 auto;
 	overflow-y: visible;
 	width: 100%;
@@ -1103,7 +1103,7 @@ Parallax
     -webkit-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-	background:no-repeat fixed;
+	background: 50% 0 no-repeat fixed;
 }
 
 .parallax.white-bg {

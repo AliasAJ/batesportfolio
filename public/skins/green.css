@@ -172,7 +172,7 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav > li > a:hover,
 .navbar.navbar-default.no-background.navbar-full.bootsnav li.close-full-menu > a,
 .close-button:hover,
 .menu-bar-wrapp .socila-icon:hover{
-	color:#2cc35e;
+	color:#84d574;
 }
 
 .icon-circle.icon-bordered.fa-primary:hover,
@@ -300,7 +300,7 @@ nav.navbar.bootsnav .share ul > li > a:hover,
 .title-head:after,
 .tab-pane-home .social-network a:hover .icon-circle,
 .menu-bar-wrapp .menu-bar{
-	background-color:#2cc35e;
+	background-color:#84d574;
 }
 
 .thumbnail .img-wrapper h5{
@@ -401,11 +401,11 @@ ol.process-line > li:hover > .icons > .fa,
 .grider a.active,
 .flex-control-thumbs .flex-active,
 .flex-control-thumbs img:hover{
-	border-color:#2cc35e;
+	border-color:#84d574;
 }
 
 .process-box.primary-bg:after{
-	border-left-color:#2cc35e;
+	border-left-color:#84d574;
 }
 
 nav.navbar.bootsnav li.dropdown ul.dropdown-menu,
@@ -413,7 +413,7 @@ nav.navbar.navbar-inverse.bootsnav li.dropdown ul.dropdown-menu,
 nav.navbar.navbar-default.bootsnav li.dropdown ul.dropdown-menu,
 .cbp-border-filter .cbp-filter-counter:after,
 .cbp-l-filters-text .cbp-filter-counter:after{
-	border-top-color:#2cc35e;
+	border-top-color:#84d574;
 }
 
 .thumbnail .img-wrapper h5:after{
